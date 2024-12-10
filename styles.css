@@ -1,0 +1,17 @@
+/* Adiciona uma transição suave para o tamanho da imagem */
+img {
+    transition: transform 0.3s ease;
+}
+
+/* Aumenta a imagem em 50% quando a classe .zoom é aplicada */
+img.zoom {
+    transform: scale(1.5); /* Aumenta o tamanho em 50% */
+}
+
+/* Estilo adicional para o aviso */
+#aviso {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1050; /* Garante que o aviso fique acima dos outros elementos */
+}
